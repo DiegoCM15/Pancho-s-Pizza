@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>PANCHOS PIZZA</title>
+     
+      <link rel="stylesheet" type="text/css" href="Estilo..css">
+
+  </head>
+  <body>
+   <h3><font size= "5" face="Averta">PEDIDOS DE PANCHO'S PIZZA</h3>
+    
+    </center><img src="img/pizzas1.jpg"  alt=""></center>
+
+   <form> 
+     <fieldset>
+       <legend>La pizzone </legend>
+          <p>Ingredientes:</p>
+          
+          <input type="checkbox" name="queso" /> <label>Queso</label><br>
+          <div class="image">
+            <img src="img/queso1.jpg" width="300" height="300" alt="" alt="">
+        </div>
+          
+          <input type="checkbox" name="pimiento" /> <label>Pimiento</label><br>
+          <div class="image">
+            <img src="img/pimiento1.png" width="300" height="300" alt="" alt="">
+        </div>
+          
+          <input type="checkbox" name="cebolla" /><label> Cebolla</label> 
+          <div class="image">
+            <img src="img/cebolla1.png" width="300" height="300" alt="" alt="">
+        </div>
+        
+          <br>
+          <p>Tamaño:</p>
+          <input type="radio" name="tamano" /><label> Pequeña</label><br>
+          <input type="radio" name="tamano" /><label> Mediana </label><br> <input type="radio" name="tamano" /> <label>Grande</label>  <div class="image"> <img src="img/tamaños1.jpg" width="500" height="500" alt="">
+        </div>
+          <br>
+     </fieldset>
+     <br>
+     <fieldset>
+        <legend>Datos de la entrega</legend>
+        <br>
+          <label>Nombre</label><input type="text" name="nombre"><br>
+          <label>Dirección</label><input type="text" name="direccion"><br>
+          <label>Teléfono</label><input type="text" name="telefono"><br>
+          <label>Instrucciones especiales</label><br/><textarea  cols="40" rows="15"></textarea> 
+     </fieldset>
+        <br>
+     <fieldset>
+      <br>
+    <legend>Método del pago</legend>
+    <div class="image">
+      <img src="img/tarjeta1.jpg" width="300" height="300" alt="" alt="">
+  </div>
+          <select>
+             <option>Elegir Método De Pago</option>
+             <option>VISA.</option>
+             <option>OXXO.</option> 
+             
+          </select>
+         <input type="submit" id="ok" value="Enviar pedido">  
+          <br>
+      </fieldset>
+    
+  </form>
+  <style>
+  #ultimo + div{
+    visibility:hidden;  
+  }  
+  </style>
+  <footer>
+    <p>
+      PÁGINA WEB DESARROLLADA POR CUELLAR MENDEZ DIEGO
+    </p>
+  </footer>  
+</body>
+</html>
